@@ -12,9 +12,7 @@
     <h1>Flappy Alien</h1>
     <p>Enjoy the game!!</p>
     
-    <script type="text/processing">
-    import processing.pdf*;
-    
+    <script type="text/processing">    
       PImage bg, alien, topPipe, botPipe;
       int bgx, bgy, kx, ky, g, Vky;
       int[] pipeX, pipeY;
@@ -31,7 +29,6 @@
         g = 1;
         pipeX = new int[4]; //[0,0,0,0]
         pipeY = new int[pipeX.length];
-
         for(int i = 0; i < pipeX.length; i++)
         {
           pipeX[i] = width + 350*i;
